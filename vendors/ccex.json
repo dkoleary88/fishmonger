@@ -1,0 +1,13 @@
+{
+  "name": "ccex",
+  "ticker": {
+    "url": "https://c-cex.com/t/btc-usd.json",
+    "method": "GET",
+    "schema": {
+      "ticker.buy": "bid",
+      "ticker.sell": "ask",
+      "ticker.low": "low",
+      "ticker.high": "high"
+    }
+  }
+}

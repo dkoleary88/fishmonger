@@ -1,0 +1,15 @@
+{
+  "name": "bitfinex",
+  "ticker": {
+    "url": "https://api.bitfinex.com/v1/pubticker/btcusd",
+    "method": "GET",
+    "schema": {
+      "bid": "bid",
+      "ask": "ask",
+      "low": "low",
+      "high": "high",
+      "volume": "volume",
+      "timestamp": "timestamp"
+    }
+  }
+}

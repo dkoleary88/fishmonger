@@ -1,0 +1,14 @@
+{
+  "name": "isString",
+  "ticker": {
+    "url": "isString",
+    "schema": {
+      "bid": "isString",
+      "ask": "isString",
+      "low": "isString",
+      "high": "isString",
+      "volume": "isString",
+      "timestamp": "isString"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "btc38",
+  "ticker": {
+    "url": "http://api.btc38.com/v1/ticker.php?c=btc",
+    "method": "GET",
+    "schema": {
+      "ticker.buy": "bid",
+      "ticker.sell": "ask",
+      "ticker.low": "low",
+      "ticker.high": "high",
+      "ticker.vol": "volume"
+    }
+  }
+}

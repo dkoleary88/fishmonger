@@ -1,0 +1,14 @@
+{
+  "name": "bter",
+  "ticker": {
+    "url": "http://data.bter.com/api/1/ticker/btc_usd",
+    "method": "GET",
+    "schema": {
+      "buy": "bid",
+      "sell": "ask",
+      "low": "low",
+      "high": "high",
+      "vol_usd": "volume"
+    }
+  }
+}

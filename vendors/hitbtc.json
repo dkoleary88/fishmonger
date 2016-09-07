@@ -1,0 +1,15 @@
+{
+  "name": "hitbtc",
+  "ticker": {
+    "url": "http://api.hitbtc.com/api/1/public/BTCUSD/ticker",
+    "method": "GET",
+    "schema": {
+      "bid": "bid",
+      "ask": "ask",
+      "low": "low",
+      "high": "high",
+      "volume": "volume",
+      "timestamp": "timestamp"
+    }
+  }
+}

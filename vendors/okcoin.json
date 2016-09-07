@@ -1,0 +1,15 @@
+{
+  "name": "okcoin",
+  "ticker": {
+    "url": "https://www.okcoin.com/api/ticker.do?ok=1",
+    "method": "GET",
+    "schema": {
+      "ticker.buy": "bid",
+      "ticker.sell": "ask",
+      "ticker.low": "low",
+      "ticker.high": "high",
+      "ticker.vol": "volume",
+      "date": "timestamp"
+    }
+  }
+}

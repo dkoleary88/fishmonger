@@ -1,0 +1,15 @@
+{
+  "name": "bitstamp",
+  "ticker": {
+    "url": "https://www.bitstamp.net/api/ticker/",
+    "method": "GET",
+    "schema": {
+      "bid": "bid",
+      "ask": "ask",
+      "low": "low",
+      "high": "high",
+      "volume": "volume",
+      "timestamp": "timestamp"
+    }
+  }
+}

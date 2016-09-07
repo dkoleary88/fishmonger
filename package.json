@@ -1,0 +1,31 @@
+{
+  "name": "fishmonger",
+  "version": "0.0.0",
+  "description": "Crypto-currency Exchange Data Interface",
+  "main": "index",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dkoleary88/fishmonger.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "btc",
+    "exchange",
+    "crypto",
+    "cryptocurrency"
+  ],
+  "author": "Daniel K O'Leary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dkoleary88/fishmonger/issues"
+  },
+  "homepage": "https://github.com/dkoleary88/fishmonger#readme",
+  "dependencies": {
+    "lodash": "^4.15.0",
+    "request": "^2.74.0"
+  }
+}
