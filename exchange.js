@@ -4,23 +4,27 @@ const _ = require('lodash');
 
 module.exports = class {
   constructor (config){
-    this.name = config.name;
-    this.config = {};
+    this._name = config._name;
+    this._config = {};
+
     for (let resource in config) {
-      if (resource === 'name') continue;
+      if (/^_/.test(resource)) continue;
+
       this[`get${_.capitalize(resource)}`] = function () {
         return this.getResource(resource);
       };
-      this.config[resource] = config[resource];
+      this._config[resource] = config[resource];
     }
   }
 
   getResource (resource) {
-    let schema = this.config[resource].schema;
+    let exchange = this._config[resource];
+    let schema = exchange.schema;
+
     return new Promise((resolve, reject) => {
       request({
-        method: this.config[resource].method,
-        uri: this.config[resource].url
+        method: exchange.method,
+        uri: exchange.url
       }, (err, _, body) => {
         if (err) reject(err);
         else resolve(body);
