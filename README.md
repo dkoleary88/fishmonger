@@ -15,7 +15,7 @@ let result = yield fishmonger.bitfinex.getTicker();
 console.log(result);
 
 // Array of available vendors
-fishmonger._list();
+fishmonger._list;
 ```
 
 ## Available vendors
