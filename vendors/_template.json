@@ -1,5 +1,5 @@
 {
-  "name": "isString",
+  "_name": "isString",
   "ticker": {
     "url": "isString",
     "schema": {

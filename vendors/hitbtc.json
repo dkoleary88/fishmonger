@@ -1,5 +1,5 @@
 {
-  "name": "hitbtc",
+  "_name": "hitbtc",
   "ticker": {
     "url": "http://api.hitbtc.com/api/1/public/BTCUSD/ticker",
     "method": "GET",

@@ -1,5 +1,5 @@
 {
-  "name": "bitfinex",
+  "_name": "bitfinex",
   "ticker": {
     "url": "https://api.bitfinex.com/v1/pubticker/btcusd",
     "method": "GET",

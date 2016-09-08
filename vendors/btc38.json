@@ -1,5 +1,5 @@
 {
-  "name": "btc38",
+  "_name": "btc38",
   "ticker": {
     "url": "http://api.btc38.com/v1/ticker.php?c=btc",
     "method": "GET",

@@ -1,5 +1,5 @@
 {
-  "name": "okcoin",
+  "_name": "okcoin",
   "ticker": {
     "url": "https://www.okcoin.com/api/ticker.do?ok=1",
     "method": "GET",

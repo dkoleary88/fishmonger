@@ -1,5 +1,5 @@
 {
-  "name": "ccex",
+  "_name": "ccex",
   "ticker": {
     "url": "https://c-cex.com/t/btc-usd.json",
     "method": "GET",

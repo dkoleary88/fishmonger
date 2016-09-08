@@ -1,5 +1,5 @@
 {
-  "name": "bter",
+  "_name": "bter",
   "ticker": {
     "url": "http://data.bter.com/api/1/ticker/btc_usd",
     "method": "GET",

@@ -1,5 +1,5 @@
 {
-  "name": "kraken",
+  "_name": "kraken",
   "ticker": {
     "url": "https://api.kraken.com/0/public/Ticker?pair=XBTUSD",
     "method": "GET",

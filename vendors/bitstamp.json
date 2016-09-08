@@ -1,5 +1,5 @@
 {
-  "name": "bitstamp",
+  "_name": "bitstamp",
   "ticker": {
     "url": "https://www.bitstamp.net/api/ticker/",
     "method": "GET",
