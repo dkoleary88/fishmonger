@@ -11,11 +11,14 @@ fishmonger.btce.getTicker()
 .then( result => console.log(result) );
 
 // Use in co / koa style
-let result = yield fishmonger.bitfinex();
+let result = yield fishmonger.bitfinex.getTicker();
 console.log(result);
+
+// Array of available vendors
+fishmonger._list();
 ```
 
-## Available vendors 
+## Available vendors
 [`vendors/`](vendors)
 - [bitfinex](vendors/bitfinex.json)
 - [bitstamp](vendors/bitstamp.json)
@@ -32,6 +35,7 @@ console.log(result);
 
 ## Contributing
 Please follow [`.eslintrc.yml`](.eslintrc.yml) file as a guide.
+Welcome any additions to vendor list.
 
 ## Author
 Daniel K O'Leary
